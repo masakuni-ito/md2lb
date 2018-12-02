@@ -1,0 +1,21 @@
+{
+  "name": "md2lb",
+  "version": "0.0.1",
+  "description": "Markdown to LIG Blog Format",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . md2lb --platform=darwin --arch=x64 --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "masakuni",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "electron-log": "^2.2.17",
+    "marked": "^0.5.2"
+  }
+}
